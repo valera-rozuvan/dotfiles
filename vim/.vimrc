@@ -14,3 +14,7 @@ set clipboard=unnamedplus
 
 " Highlighting search matches.
 set hlsearch
+
+" Remove all trailing whitespace on save.
+autocmd BufWritePre * %s/\s\+$//e
+
