@@ -18,3 +18,22 @@ set hlsearch
 " Remove all trailing whitespace on save.
 autocmd BufWritePre * %s/\s\+$//e
 
+" Set up a virtual ruler to show 120 max line length.
+:set colorcolumn=120
+
+" Define custom keys.
+:map <F1> :tabe<space>
+:map <F2> :tabp<CR>
+:map <F3> :tabn<CR>
+:map <F4> :tabnew<CR>
+
+:map <F5> :edit!<CR>
+:map <F6> :w<CR>
+:map <C-F6> :wq<CR>
+
+:map <F9> zt
+:map <F10> zz
+:map <F11> zb
+
+:map <F12> :q!<CR>
+
