@@ -3,6 +3,7 @@ PermitRootLogin no
 StrictModes yes
 MaxAuthTries 6
 MaxSessions 10
+ClientAliveInterval 120
 
 PubkeyAuthentication yes
 
