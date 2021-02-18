@@ -19,3 +19,5 @@ PrintMotd no
 
 AcceptEnv LANG LC_*
 Banner /etc/ssh_banner
+
+AllowUsers valera
