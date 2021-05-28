@@ -1,2 +1,3 @@
 # configs
-various configs for different apps &amp; services
+
+Various configs for different apps &amp; services.
