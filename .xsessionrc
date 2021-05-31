@@ -1,4 +1,2 @@
-#!/bin/bash
-
-source /etc/profile
-source ~/.profile
+. /etc/profile
+. ~/.profile
