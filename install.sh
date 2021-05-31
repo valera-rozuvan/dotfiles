@@ -9,7 +9,7 @@ rm -rf ~/.xsessionrc*
 WD=$(pwd)
 
 ln -s $WD/.bashrc.d    ~/.bashrc.d
-cp -s $WD/.profile.d   ~/.profile.d
+ln -s $WD/.profile.d   ~/.profile.d
 ln -s $WD/.bash_logout ~/.bash_logout
 ln -s $WD/.bashrc      ~/.bashrc
 ln -s $WD/.nanorc      ~/.nanorc
