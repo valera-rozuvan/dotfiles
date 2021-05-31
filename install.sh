@@ -8,14 +8,14 @@ rm -rf ~/.xsessionrc*
 
 WD=$(pwd)
 
-ln -s ~/.bashrc.d    $WD/.bashrc.d
-cp -s ~/.profile.d   $WD/.profile.d
-ln -s ~/.bash_logout $WD/.bash_logout
-ln -s ~/.bashrc      $WD/.bashrc
-ln -s ~/.nanorc      $WD/.nanorc
-ln -s ~/.profile     $WD/.profile
-ln -s ~/.Xdefaults   $WD/.Xdefaults
-ln -s ~/.xsessionrc  $WD/.xsessionrc
+ln -s $WD/.bashrc.d    ~/.bashrc.d
+cp -s $WD/.profile.d   ~/.profile.d
+ln -s $WD/.bash_logout ~/.bash_logout
+ln -s $WD/.bashrc      ~/.bashrc
+ln -s $WD/.nanorc      ~/.nanorc
+ln -s $WD/.profile     ~/.profile
+ln -s $WD/.Xdefaults   ~/.Xdefaults
+ln -s $WD/.xsessionrc  ~/.xsessionrc
 
 echo "Done!"
 exit 0
