@@ -28,6 +28,6 @@ fi
 
 # Everything above ^ is from stock Debian `.profile` config.
 # Now we load custom `.profile` configs - to add/override stuff.
-if [ -f ~/.profile.d/00-index.sh ]; then
-    . ~/.profile.d/00-index.sh
+if [ -f "$HOME/.profile.d/00-index.sh" ]; then
+    . "$HOME/.profile.d/00-index.sh"
 fi
