@@ -1,2 +1,2 @@
-. /etc/profile
-. ~/.profile
+[[ $DID_PROFILE_RUN != yes && -f /etc/profile ]] && . /etc/profile
+[[ $DID_PROFILE_RUN != yes && -f ~/.profile ]] && . ~/.profile

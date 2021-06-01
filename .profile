@@ -31,3 +31,6 @@ fi
 if [ -f "$HOME/.profile.d/00-index.sh" ]; then
     . "$HOME/.profile.d/00-index.sh"
 fi
+
+# Below variable will be checked in `~/.xsessionrc` - so we don't source `~/.profile` more than once.
+export DID_PROFILE_RUN=yes
