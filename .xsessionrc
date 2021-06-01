@@ -1,2 +1,11 @@
-[[ $DID_PROFILE_RUN != yes && -f /etc/profile ]] && . /etc/profile
-[[ $DID_PROFILE_RUN != yes && -f ~/.profile ]] && . ~/.profile
+if [ "$DID_PROFILE_RUN" = "yes" ]; then
+  if [ -r /etc/profile ]; then
+    . /etc/profile;
+  fi
+fi
+
+if [ "$DID_PROFILE_RUN" = "yes" ]; then
+  if [ -r ~/.profile ]; then
+    . ~/.profile;
+  fi
+fi
