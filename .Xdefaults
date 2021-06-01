@@ -1,7 +1,6 @@
 URxvt*title: [\>]
 URxvt*transparent: false
 URxvt*tintColor: White
-URxvt*saveLines: 12000
 URxvt*background: [90]#000000
 URxvt*depth: 32
 URxvt*foreground: #FFFFFF
