@@ -29,8 +29,6 @@
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
-        <value type="int" value="11"/>
-        <value type="int" value="12"/>
         <value type="int" value="13"/>
         <value type="int" value="14"/>
       </property>
@@ -59,22 +57,12 @@
     </property>
     <property name="plugin-9" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16216147081.desktop"/>
+        <value type="string" value="16226650671.desktop"/>
       </property>
     </property>
     <property name="plugin-10" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16216147082.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-11" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16216147083.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-12" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16216147084.desktop"/>
+        <value type="string" value="16226651262.desktop"/>
       </property>
     </property>
     <property name="plugin-13" type="string" value="separator">
