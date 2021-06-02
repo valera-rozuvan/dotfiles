@@ -40,6 +40,12 @@ rm -rf ~/.nano*
 rm -rf ~/.Xdefaults*
 rm -rf ~/.xsession*
 
+mkdir -p ~/.config/autostart
+rm -rf ~/.config/autostart
+
+mkdir -p ~/.config/xfce4
+rm -rf ~/.config/xfce4
+
 ln -s $WD/.bashrc.d    ~/.bashrc.d
 ln -s $WD/.profile.d   ~/.profile.d
 ln -s $WD/.bash_logout ~/.bash_logout
@@ -48,6 +54,9 @@ ln -s $WD/.nanorc      ~/.nanorc
 ln -s $WD/.profile     ~/.profile
 ln -s $WD/.Xdefaults   ~/.Xdefaults
 ln -s $WD/.xsessionrc  ~/.xsessionrc
+
+ln -s $WD/autostart    ~/.config/autostart
+ln -s $WD/xfce4        ~/.config/xfce4
 
 echo -e "\nDone, without errors ;)"
 exit 0
