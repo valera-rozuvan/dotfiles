@@ -1,5 +1,3 @@
-#!/bin/bash
-
 SSH_ENV="$HOME/.ssh/agent-environment"
 
 function start_agent {

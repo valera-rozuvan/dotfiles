@@ -32,7 +32,4 @@ if [ -f "$HOME/.profile.d/00-index.sh" ]; then
     . "$HOME/.profile.d/00-index.sh"
 fi
 
-export SSH_ENV="$HOME/.ssh/agent-environment"
-. $SSH_ENV
-
 export DID_PROFILE_RUN=yes
