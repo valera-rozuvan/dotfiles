@@ -2,6 +2,7 @@
 . ~/.bashrc.d/02-aliases.sh
 
 ~/.profile.d/01-ssh-agent.sh
+source 
 
 # For local modifications - put other `.bashrc` related configs in `99-other.sh` file.
 # The file `99-other.sh` is not tracked by git.
