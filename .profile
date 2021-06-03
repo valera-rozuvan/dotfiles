@@ -28,6 +28,8 @@ fi
 
 # Everything above ^ is from stock Debian `.profile` config.
 # Now we load custom `.profile` configs - to add/override stuff.
+export SSH_ENV="$HOME/.ssh/agent-environment"
+
 if [ -f "$HOME/.profile.d/00-index.sh" ]; then
     . "$HOME/.profile.d/00-index.sh"
 fi
