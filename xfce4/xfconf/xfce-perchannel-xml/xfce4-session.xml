@@ -33,9 +33,6 @@
       <property name="Client4_PerScreen" type="empty"/>
     </property>
   </property>
-  <property name="shutdown" type="empty">
-    <property name="LockScreen" type="bool" value="false"/>
-  </property>
   <property name="startup" type="empty">
     <property name="ssh-agent" type="empty">
       <property name="enabled" type="bool" value="false"/>
