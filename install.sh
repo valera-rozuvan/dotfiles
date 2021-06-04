@@ -30,9 +30,17 @@ trap hndl_SIGQUIT SIGQUIT
 trap hndl_SIGABRT SIGABRT
 trap hndl_SIGTERM SIGTERM
 
-WD=$(pwd)
+# SOURCE="${BASH_SOURCE[0]}"
+# while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
+#   SCRIPT_DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
+#   SOURCE="$(readlink "$SOURCE")"
+#   [[ $SOURCE != /* ]] && SOURCE="$SCRIPT_DIR/$SOURCE" # if $SOURCE was a relative symlink, we need to resolve it relative to the path where the symlink file was located
+# done
+# SCRIPT_DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
 
-chmod u+x $WD/.profile.d/01-ssh-agent.sh
+# echo "'${SCRIPT_DIR}' is where the 'install.sh' script lives."
+
+WD=$(pwd)
 
 rm -rf ~/.bash*
 rm -rf ~/.profile*
