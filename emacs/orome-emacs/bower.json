@@ -1,0 +1,28 @@
+{
+  "name": "orome-emacs",
+  "version": "0.0.2",
+  "authors": [
+    "Valera Rozuvan <valera.rozuvan@gmail.com>"
+  ],
+  "license": "GNU GPL v2",
+  "homepage": "https://github.com/valera-rozuvan/orome-emacs",
+  "private": true,
+  "ignore": [],
+  "dependencies": {
+    "auto-complete": "auto-complete/auto-complete",
+    "flx": "lewang/flx",
+    "highlight-chars": "emacsmirror/highlight-chars",
+    "ido-vertical-mode": "emacsmirror/ido-vertical-mode",
+    "js2-mode": "mooz/js2-mode",
+    "less-css-mode": "purcell/less-css-mode",
+    "load-directory-mu": "valera-rozuvan/load-directory-mu",
+    "markdown-mode": "defunkt/markdown-mode",
+    "popup-el": "auto-complete/popup-el",
+    "yaml-mode": "yoshiki/yaml-mode",
+    "emacs-neotree": "jaypei/emacs-neotree",
+    "typescript.el": "ananthakumaran/typescript.el",
+    "cmake-font-lock": "Lindydancer/cmake-font-lock",
+    "k-cmake-mode": "valera-rozuvan/k-cmake-mode"
+  },
+  "devDependencies": {}
+}

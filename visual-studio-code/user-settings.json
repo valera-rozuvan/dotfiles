@@ -1,0 +1,45 @@
+{
+  "workbench.startupEditor": "none",
+  "window.restoreWindows": "all",
+  "explorer.openEditors.visible": 0,
+  "editor.rulers": [100, 120],
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "files.autoSave": "off",
+  "files.eol": "\n",
+  "workbench.colorTheme": "One Monokai",
+  "editor.fontFamily": "IBM Plex Mono",
+  "editor.fontSize": 14,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.autoReveal": true,
+  "window.zoomLevel": 1,
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "window.title": "${activeEditorLong}${separator}${rootName}",
+  "breadcrumbs.enabled": true,
+  "typescript.suggest.autoImports": false,
+  "javascript.suggest.autoImports": false,
+  "window.titleBarStyle": "custom",
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": false
+    },
+    {
+      "language": "html",
+      "autoFix": false
+    },
+    {
+      "language": "javascript",
+      "autoFix": false
+    }
+  ],
+  "python.pythonPath": "/usr/bin/python",
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+    "files.trimFinalNewlines": false,
+    "editor.formatOnSave": false
+  }
+}

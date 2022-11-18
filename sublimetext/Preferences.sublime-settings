@@ -1,0 +1,59 @@
+{
+  "always_show_minimap_viewport": true,
+  "binary_file_patterns":
+  [
+    "*.dds",
+    "*.eot",
+    "*.gif",
+    "*.ico",
+    "*.jar",
+    "*.jpeg",
+    "*.jpg",
+    "*.pdf",
+    "*.png",
+    "*.swf",
+    "*.tga",
+    "*.ttf",
+    "*.zip"
+  ],
+  "bold_folder_labels": true,
+  "default_line_ending": "unix",
+  "detect_indentation": false,
+  "dpi_scale": 1.0,
+  "draw_minimap_border": true,
+  "ensure_newline_at_eof_on_save": true,
+  "experimentalDecorators": true,
+  "folder_exclude_patterns":
+  [
+    "node_modules",
+    ".git",
+    "dist",
+    "build"
+  ],
+  "font_face": "Inconsolata",
+  "font_options":
+  [
+    "subpixel_antialias"
+  ],
+  "font_size": 16.0,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "JavaScript",
+    "Vintage"
+  ],
+  "rulers":
+  [
+    80,
+    120
+  ],
+  "scroll_past_end": true,
+  "spell_check": true,
+  "tab_size": 2,
+  "trailing_spaces_highlight_color": "all",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "use_tab_stops": true,
+  "wordWrap": true
+}

@@ -1,0 +1,33 @@
+{
+  "workbench.startupEditor": "none",
+  "window.restoreWindows": "all",
+  "explorer.openEditors.visible": 0,
+  "editor.rulers": [100, 120],
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "files.autoSave": "off",
+  "files.eol": "\n",
+  "editor.fontSize": 14,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.autoReveal": true,
+  "window.zoomLevel": 1,
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "window.title": "${activeEditorLong}${separator}${rootName}",
+  "breadcrumbs.enabled": true,
+  "typescript.suggest.autoImports": false,
+  "javascript.suggest.autoImports": false,
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "GitHub Dark",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.vercel": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true
+  }
+}

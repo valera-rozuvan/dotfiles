@@ -2,18 +2,20 @@
 
 Various dotfiles for apps & services I use. Use at your own risk. Highly specific for my own needs.
 
-## Setup
+## Sections
 
-To install just Bash* stuff, a handy script is provided. Please take a look at the script before you run it!
-
-```
-git clone https://github.com/valera-rozuvan/dotfiles ~/.dotfiles
-cd ~/.dotfiles
-
-# Warning! The script `install.sh` wipes your old Bash* stuff.
-./install.sh
-```
+- [bash](./bash)
+- [emacs](./emacs)
+- [nano](./nano)
+- [openssh-server](openssh-server)
+- [sublimetext](./sublimetext)
+- [urxvt](./urxvt)
+- [vim](./vim)
+- [visual-studio-code](./visual-studio-code)
+- [xfce4](./xfce4)
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for more details.
+Licensed under MIT. See [LICENSE](LICENSE) for more details.
+
+Copyright (c) 2019-2022 [Valera Rozuvan](https://valera.rozuvan.net/).

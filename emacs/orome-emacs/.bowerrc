@@ -1,0 +1,7 @@
+{
+  "directory": "vendor/",
+  "analytics": false,
+  "timeout": 60000,
+
+  "shorthand-resolver": "https://github.com/{{owner}}/{{package}}.git"
+}

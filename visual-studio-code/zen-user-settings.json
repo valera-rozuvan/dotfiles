@@ -1,0 +1,16 @@
+{
+  "files.eol": "\n",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 750,
+  "workbench.startupEditor": "none",
+  "window.restoreWindows": "all",
+  "explorer.openEditors.visible": 0,
+  "editor.rulers": [100, 120],
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "window.title": "${activeEditorLong}${separator}${rootName}",
+  "breadcrumbs.enabled": true,
+  "window.titleBarStyle": "custom"
+}
