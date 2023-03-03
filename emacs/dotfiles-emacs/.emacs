@@ -8,16 +8,16 @@
 
 )
 
-;; (set-default-font "IBM Plex Mono 13")
-;; (add-to-list
-;;   'default-frame-alist
-;;   '(font . "IBM Plex Mono 13")
-;; )
+(set-frame-font "IBM Plex Mono 13")
+(add-to-list
+  'default-frame-alist
+  '(font . "IBM Plex Mono 13")
+)
 
 (setq initial-scratch-message "")
 
-;; (add-to-list 'default-frame-alist '(height . 26))
-;; (add-to-list 'default-frame-alist '(width . 121))
+(add-to-list 'default-frame-alist '(height . 26))
+(add-to-list 'default-frame-alist '(width . 121))
 
 (setq line-number-mode t)
 (setq column-number-mode t)
@@ -98,3 +98,5 @@
 
 (global-set-key (kbd "C-+") 'text-scale-increase)
 (global-set-key (kbd "C--") 'text-scale-decrease)
+
+;; the end .
