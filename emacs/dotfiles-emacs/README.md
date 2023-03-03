@@ -2,15 +2,15 @@
 
 Dotfiles for minimal Emacs setup.
 
-## getting latest source
+## prerequisites
 
-A public git repo is available at [git.rozuvan.net/dotfiles-emacs](https://git.rozuvan.net/dotfiles-emacs). Several mirrors exist: [github mirror](https://github.com/valera-rozuvan/dotfiles-emacs), [gitlab mirror](https://gitlab.com/valera-rozuvan/dotfiles-emacs).
+The emacs config specifically mentions the font `IBM Plex Mono 13`. On a Debian based Linux distro the font family can be installed like so:
 
-You can get a local copy by running the command:
-
+```shell
+sudo apt install fonts-ibm-plex
 ```
-git clone https://git.rozuvan.net/dotfiles-emacs
-```
+
+This is the extensive typeface family designed by IBM. See [Package: fonts-ibm-plex](https://packages.debian.org/bullseye/fonts-ibm-plex).
 
 ## installing
 
@@ -21,11 +21,3 @@ A handy bash script is provided to automate installation of this Emacs setup. Yo
 ```
 
 But be aware! It cleans up any previous `.emacs*` stuff you might have.
-
-## license
-
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for more details.
-
-## maintainers
-
-- [Valera Rozuvan](https://valera.rozuvan.net/)
