@@ -2,6 +2,12 @@
 
 Configuration I generally apply to a fresh-install of [VSCode](https://github.com/Microsoft/vscode/).
 
+## zen
+
+For the least number of config options, take a look at [zen-user-settings.json][./zen-user-settings.json] file. Just paste into settings, and start coding! These days, this is what I use on a fresh install of VSCode.
+
+Below stuff is mostly for historic purposes. For times when I need some specific option, and want to look up what I used before. Also, might give a bit prettier end result, since the use of a custom font and theme.
+
 ## Prerequisites
 
 Make sure to install these first, restart your VSCode, and then apply the config.
@@ -14,9 +20,9 @@ On some systems, you need to tweak how the font is set in `user-settings.json`:
 
 ```
   "editor.fontFamily": "'IBM Plex Mono Medium'",
-  
-  //or 
-  
+
+  //or
+
   "editor.fontFamily": "IBM Plex Mono",
 ```
 
