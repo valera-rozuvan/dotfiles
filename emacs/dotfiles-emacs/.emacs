@@ -38,7 +38,11 @@
   `((".*" ,temporary-file-directory t))
 )
 
-(global-linum-mode 1)
+;; "linum-mode" does not work in recent Emacs.
+;; (global-linum-mode 1)
+
+;; This works for me as of Emacs v29.3.
+(global-display-line-numbers-mode 1)
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
