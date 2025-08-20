@@ -1,6 +1,10 @@
 set tabsize 2
 set linenumbers
-# set constantshow
+set fill 72
+set nowrap
+set softwrap
+set breaklonglines
+set constantshow
 set numbercolor green,black
 syntax "disabled" "."
 color white "."
